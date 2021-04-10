@@ -1,9 +1,6 @@
-//UI Variables - These are consts for the containers of the background, choices, and text
 const txtEl = document.getElementById("text")
 const chEl = document.getElementById("choices")
 let userChoice = ""
-
-//Game Arrays - Array hierarchy - Game->px->text and choices
 
 game = {
 
@@ -40,7 +37,7 @@ game = {
 
     pg3 : {
         text: [
-            "\"...There isn't much new to report at this time as far as Meteor Watch 2018 is concerned. The meteor appears to still be on course to be closest to earth in the middle of the night over the pacific Northwest. But, don't worry if you're nowhere close to there - thankfully a meteor the size of Ireland will have more than a few vantage points of which to observe... Now for traffic and weath-\"",
+            "\"...There isn't much new to report at this time as far as Meteor Watch 2018 is concerned. The meteor appears to still be on course to be closest to earth in the middle of the night over the pacific Northwest. But, don't worry if you're nowhere close to there - thankfully a meteor the size of Ireland will have more than a few vantage points from which to observe... Now for traffic and weath-\"",
             "\"That's good\", I daydream to myself - that gives me a few hours to relax before we stay up and watch this thing blow by.",
             "I wonder to myself what it would be like to be a meteor or some other celestial body, floating through space on an endless mission...",
             "I emerge from my reverie and look up to see a dark mass right in front of the car. It's big, and not moving.",
@@ -60,7 +57,7 @@ game = {
   pg42 : {
     text: [
         "-I chose to slam on the brakes-",
-        "At this point, you know it's too late to stop short of whatever this thing is, but are hoping for a minimal collision. The height of the SUV propels you clean over the thing, coming down with a sickening crunch as 2 tons of car meets the pavement. Thankfully, I'm able to glide the car to the side of the road."
+        "At this point, I know it's too late to stop short of whatever this thing is, but are hoping for a minimal collision. The height of the SUV propels I clean over the thing, coming down with a sickening crunch as two tons of car meet the pavement. Thankfully, I'm able to glide the car to the side of the road."
     ],
     choices: [{text: "I get out to inspect the car, and my heart sinks...", pg:"pg5"}]
 },
@@ -190,7 +187,7 @@ pg14a1 : {
 pg14b1 : {
   text: [
     "-I chose to wait for the man to approach-",
-    "You almost want to hold your breath while the man lumbers toward you, just as the sun slips out of view. Now ten feet away, he stops and scans my once reliable SUV."
+    "I almost want to hold my breath while the man lumbers toward me, just as the sun slips out of view. Now ten feet away, he stops and scans my once reliable SUV."
   ],
   choices: [{text: "\"Looks like you hit something\” he grumbles to you", pg:"pg15"}]
 },
@@ -206,7 +203,7 @@ pg15 : {
 
 pg16 : {
   text: [
-    "“No kidding.” He offers back to me. He adjusts his trucker hat and continues:",
+    "“No kidding,” he offers back to me. He adjusts his trucker hat and continues:",
     "“I can give you a lift back into town, just a short way away. No trouble.”",
     "I probably don’t know the roads like this leviathan standing now five feet in front of me, but there is definitely not a town anywhere near here.",
     "Even without that blatant falsehood, this guy made me instantly uneasy. It was the way he spoke – his words were too deliberate.",
@@ -220,8 +217,8 @@ pg16 : {
 pg17 : {
   text: [
     "\"Sorry, but I’m fine just staying here. The RCMP will be here in about 15 minutes to pick me up. I appreciate the gesture though.\"",
-    "My new acquaintance doesn’t like the mention of the RCMP at all. He bristles, and speech starts to get more agitated.",
-    "\"I insist, my truck’s warm and you can call them from there. Just come back with me.\"",
+    "My new acquaintance doesn’t like the mention of the RCMP at all. He bristles, and his speech starts to get more agitated.",
+    "\"I insist, my truck’s warm and I can call them from there. Just come back with me.\"",
     "Only now I noticed the shoulder strap around his chest."
   ],
   choices: [{text: "And what was attached to it...", pg:"pg18"}]
@@ -229,12 +226,12 @@ pg17 : {
 
 pg17a : {
   text: [
-    "I decide to give this guy the benefit of the doubt. Darkness was fast approaching, and I could really use some food water.",
+    "I decide to give this guy the benefit of the doubt. Darkness was fast approaching, and I could really use some food and water.",
     "\"Sure, let me call the RCMP first. They're going to want to know where to find me - and what did you say your name was?\"",
     "The man mutters something under his breath that I can't quite make out.",
     "\"I'm sorry?\" I offer to him.",
     "\"I said, \'this was almost too easy\'...\"",
-    "You don't have time to ask what that means before a puch knocks you off of your feet. The man leans over you as you slowly fade from consciousness."
+    "I don't have time to ask what that means before a punch knocks me off of my feet. The man leans over me as I slowly fade from consciousness."
   ],
   choices: [{text: "Epilogue", pg:"pg17b"}]
 },
@@ -281,25 +278,25 @@ pg21a : {
   text: [
     "-I take the phone charger-",
     "I grab the charger and immediately bolt towards the tree line. The man swears loudly and takes the rifle off his back.",
-    "You hear the faint sound of a bullet being loaded into a chamber, then the deafening crack of gunfire.",
-    "Your right side explodes in pain at the bullet hits somewhere on your right side. Still, you keep running."
+    "I hear the faint sound of a bullet being loaded into a chamber, then the deafening crack of gunfire.",
+    "My right side explodes in pain at the bullet hits somewhere on my right side. Still, I keep running."
   ],
-  choices: [{text: "Keep running while you call 911", pg:"pg22a"}, {text: "Circle back and see if the man left", pg: "pg21e"}]
+  choices: [{text: "Keep running while I call 911", pg:"pg22a"}, {text: "Circle back and see if the man left", pg: "pg21e"}]
 },
 
 pg21b : {
   text: [
     "-I take the tire iron-",
-    "You grab the tire iron and wheel around, swinging wildly and praying you connect.",
+    "I grab the tire iron and wheel around, swinging wildly and praying I connect.",
     "The tire iron strikes the man square in the head, opening up a significant gash above his eye.",
-    "He roars loudly, clutching his face. You don’t have time to register anything else as you sprint towards the treeline. You catch a glimpse of the man attempting to load his rifle as you reach the cover of the forest."
+    "He roars loudly, clutching his face. I don’t have time to register anything else as I sprint towards the treeline. I catch a glimpse of the man attempting to load his rifle as I reach the cover of the forest."
   ],
   choices: [{text: "Keep running while you call 911", pg:"pg22b"}, {text: "Circle back and see if the man left", pg: "pg21e"}]
 },
 
 pg21c : {
   text: [
-    "-I attempt to dial 911 with your back to the man-",
+    "-I attempt to dial 911 with my back to the man-",
     "I discretely attempt to dial the second \"1\" when I feel the man look over my shoulder.",
     "\"I don't think so\" he growls at me. A split second later, I slump to the ground, the back of my head searing from the impact of what I can only imagine to be a rifle butt end.",
     "I desperately try and cling to consciousness as I'm dragged away by my sweatshirt. Clawing at the pavement, I glance one last time at my car, frozen in time as I drift into darkness..."
@@ -332,10 +329,10 @@ pg21f : {
   text: [
     "I take a deep breath, and prepare to make what I think is a horrible decision.",
     "Both of us hear a noise, and two shots break a deafening silence as I stagger backwards.",
-    "Instinctively, I check myeslf for additional wounds to find nothing. I pick myself up to find an RCMP officer kicking the gun away that belongs to the man. He's laying on his back in the middle of the road, having got what was coming to him.",
+    "Instinctively, I check myeslf for additional wounds, only to find nothing. I pick myself up to find an RCMP officer kicking the gun away that belongs to the man. He's laying on his back in the middle of the road, having got what was coming to him.",
     "A paramedic makes his way over to check me out. \"Are you hurt? Looks like we got here right on time.\"",
     "The RCMP officer examines my car and the moose, then joins the two of us. The paramedic confirms my injuries aren't too serious, but we should get me back to the hospital at Prince Rupert to have me treated.",
-    "You phone your parents and brother - they'd been briefed about the accident, but sounded truly shaken after hearing part two of my ordeal. Safe to say I'll be flying home now...",
+    "I phone my parents and brother - they'd been briefed about the accident, but sounded truly shaken after hearing part two of my ordeal. Safe to say I'll be flying home now...",
   ],
   choices: [{text: "Epilogue", pg:"pg21g"}]
 },
@@ -352,7 +349,7 @@ pg21g : {
 
 pg22a : {
   text: [
-    "-You frantically dial 911 as you run away-",
+    "-I frantically dial 911 as I run away-",
     "Where the hell is the RCMP?",
     "One ring... ",
     "Two rings...",
@@ -363,7 +360,7 @@ pg22a : {
 
 pg22b : {
   text: [
-    "-You frantically dial 911 as you run away-",
+    "-I frantically dial 911 as I run away-",
     "Where the hell is the RCMP?",
     "One ring... ",
     "Two rings...",
@@ -374,31 +371,31 @@ pg22b : {
 
 pg23a : {
   text: [
-    "You come to, and your head feels as though it’s on fire. Everything is pitch black, and you realize with a sinking feeling that it’s the middle of the night.",
+    "I come to, and my head feels as though it’s on fire. Everything is pitch black, and I realize with a sinking feeling that it’s the middle of the night.",
   ],
   choices: [{text: "Where am I?", pg:"pg24a"}],
 },
 
 pg23b : {
   text: [
-    "You come to, and your head feels as though it’s on fire. Everything is pitch black, and you realize with a sinking feeling that it’s the middle of the night.",
+    "I come to, and my head feels as though it’s on fire. Everything is pitch black, and I realize with a sinking feeling that it’s the middle of the night.",
   ],
   choices: [{text: "Where am I?", pg:"pg24b"}, {text: "", pg: "pg24b"}],
 },
 
 pg24a : {
   text: [
-    "You check your phone.",
+    "I check my phone.",
     "5 percent battery. Thank god I took my power bank with me.",
-    "I plug your phone in and watch your screen get a little brighter. This small action makes me feel a little bit safer.",
-    "I examine your hip. It isn’t good – looks like the bullet went clean through just above my right hip. I seem to have lost a lot of blood, too. Christ, if my head wasn’t killing me, I may not have even noticed.",
+    "I plug my phone in and watch my screen get a little brighter. This small action makes me feel a little bit safer.",
+    "I examine my hip. It isn’t good – looks like the bullet went clean through just above my right hip. I seem to have lost a lot of blood, too. Christ, if my head wasn’t killing me, I may not have even noticed.",
   ],
   choices: [{text: "Time to get out of wherever the hell I am", pg:"pg25a"}]
 },
 
 pg24b : {
   text: [
-    "You check your phone.",
+    "I check my phone.",
     "5 percent battery. Well, at least I’m alive and have a means to defend myself.",
   ],
   choices: [{text: "Time to get out of wherever the hell I am", pg:"pg25b"}]
@@ -467,7 +464,7 @@ pg28a : {
     "I see a latch on the door, and no handle on the inside.",
     "What kind of a door is this?",
     "Hesitantly, I conclude that the only way I have a chance of making it out alive is to take my chances with this door.",
-    "I’m sure there’s some sort of search party looking for me, and judging by the time of day - you glance at your phone to reveal 12:30am - they don’t seem particularly close.",
+    "I’m sure there’s some sort of search party looking for me, and judging by the time of day - I glance at my phone to reveal 12:30am - they don’t seem particularly close.",
     "I was running for a while...damnit..."
   ],
   choices: [{text: "What now?", pg:"pg29a"}]
@@ -480,7 +477,7 @@ pg28b : {
     "I see a latch on the door, and no handle on the inside.",
     "What kind of a door is this?",
     "Hesitantly, I conclude that the only way I have a chance of making it out alive is to take my chances with this door.",
-    "I’m sure there’s some sort of search party looking for me, and judging by the time of day - you glance at your phone to reveal 12:30am - they don’t seem particularly close.",
+    "I’m sure there’s some sort of search party looking for me, and judging by the time of day - I glance at my phone to reveal 12:30am - they don’t seem particularly close.",
     "I was running for a while...damnit...",
   ],
   choices: [{text: "What now?", pg:"pg29b"}]
@@ -520,7 +517,7 @@ pg30a : {
 pg30b1 : {
   text: [
     "-I use the tire iron to prop open the door-",
-    "You carefully place the tire iron in the door frame to preserve your exit. With your phone almost dead and unable to use the flashlight app, the light from your screen only shines about six inches in front of you.",
+    "I carefully place the tire iron in the door frame to preserve my exit. With my phone almost dead and unable to use the flashlight app, the light from my screen only shines about six inches in front of I.",
     "I can always come back to get it, I think to myself. It isn't particularly reassuring.",
     "With my heart beating in my throat, I make my way down the stairs."
   ],
@@ -548,8 +545,6 @@ pg31 : {
   
   }
 
-  //Function to load text and choices
-
   function loadPage(page){
       const text = page.text;
       const choices = page.choices
@@ -569,13 +564,7 @@ pg31 : {
 
     function nextPage(){
       const pageToRender = ''
-     // some condition to figure out the next page to render based on the 
-     //choice from the button  they clicked on for the event 
-    // use conditionals to figure out what page needs to render
-        // if (userChoice = "begin") {
-        //     loadPage(game["pg1"])
-        // }
-    // "pg2"
+
     return pageToRender
     
     }
@@ -591,15 +580,9 @@ pg31 : {
     
       chEl.innerHTML = choicesHtml
     }
-    
-    // Event Listener
+  
       chEl.addEventListener('click', handleUserChoice)
-    
-    
-    // Page Logic 
-    
-    // need a function that figures out what page the renderPage fn should receive 
-    // based on the choice a user has clicked on
+
     function handleUserChoice(event){
 
         const nextPageKey = event.target.id
@@ -607,13 +590,5 @@ pg31 : {
             loadPage(nextPage)
 
     }
-    // figure out what button they clicked
-    // get the next page from the id property of the button
-    // use that string in the game object game[id] ---> page object
-    
-     // renderPage() <---- with the page you derive at game[id]
-    
-    
-    
     
     loadPage(game["pg0"])
