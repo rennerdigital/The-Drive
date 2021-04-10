@@ -6,12 +6,13 @@
 
 You are immersed in a long drive in northern British Columbia when you appear to hit something in the middle of a remote stretch of highway. After miraculously escaping unharmed, you inspect the crash to find out that all it not what it seems. Make realistic choices and discover all of the endings!
 
+The Drive - [Play Now!](https://rennerdigital.github.io/The-Drive/)
 <img src="https://i.imgur.com/s7aXowO.png">
 
-real-life decisions will determine your ability to survive
+Real-life decisions will determine your ability to survive...
 <img src="https://i.imgur.com/oqbMPb6.png">
 
-discover mutiple, wildly different endings - with more added soon!
+Discover mutiple, wildly different endings - with more added soon!
 <img src="https://i.imgur.com/WIqtyVJ.png">
 
 ## The Concept
@@ -23,9 +24,9 @@ discover mutiple, wildly different endings - with more added soon!
 <img src="https://i.imgur.com/EY3cjxQ.png">
 
 ## Languages Used
-*Javascript
-*CSS
-*HTML
+* Javascript
+* CSS
+* HTML
 
 ## Getting Started
 [Click here to Play!](https://rennerdigital.github.io/The-Drive/)
