@@ -32,7 +32,8 @@ discover mutiple, wildly different endings - with more added soon!
 [Click here to Play!](https://rennerdigital.github.io/The-Drive/)
 
 ## Special Instructions
-* er, none :shrug:
+* Er, none :shrug:
+* Just point and click on your desired choice to advance the story!
 
 ## Next Steps - In no Particular Order (How much time do we have?)
 
