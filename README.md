@@ -23,9 +23,9 @@ Discover mutiple, wildly different endings - with more added soon!
 <img src="https://i.imgur.com/EY3cjxQ.png">
 
 ## Languages Used
-*Javascript
-*CSS
-*HTML
+* Javascript
+* CSS
+* HTML
 
 ## Getting Started
 [Click here to Play!](https://rennerdigital.github.io/The-Drive/)
