@@ -1,0 +1,90 @@
+html {
+    /* Setting to div to 100% to demo the animation full screen */
+    height: 100%; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    background-color: black;
+    opacity: 1;
+    background: url(https://wallpaperaccess.com/full/2355702.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: fade-in-scale-down 2s ease-out 1;
+    -webkit-animation: fade-in-scale-down 2s ease-in-out 1;
+    -moz-animation:    fade-in-scale-down 2s ease-in-out 1;
+    -o-animation:      fade-in-scale-down 2s ease-in-out 1;
+  }
+  
+  .layer {
+    background-color: rgba(44, 44, 41, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes fade-in-scale-down{
+    0%{
+      opacity:0;
+      -webkit-transform:scale(1.1);
+      -ms-transform:scale(1.1);
+      transform:scale(1.1)
+    }
+    
+    100%{
+      opacity:1;
+      -webkit-transform:scale(1);
+      -ms-transform:scale(1);
+      transform:scale(1);
+    }
+  }
+  
+  a {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      color: white;
+      padding: 5%;
+      animation: fade-in 2s ease-out 1;
+      -webkit-animation: fade-in 2s ease-in-out 1;
+      -moz-animation:    fade-in 2s ease-in-out 1;
+      -o-animation:      fade-in-2s ease-in-out 1;
+  }
+  
+  p {
+    position: relative;
+    padding: 0.25%;
+    margin: 50px auto;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    animation: fade-in 2s ease-out 1;
+    -webkit-animation: fade-in 2s ease-in-out 1;
+    -moz-animation:    fade-in 2s ease-in-out 1;
+    -o-animation:      fade-in-2s ease-in-out 1;
+  }
+  
+  @keyframes fade-in{
+      0%{
+        opacity:0;
+        -webkit-transform:scale(1.1);
+        -ms-transform:scale(1.1);
+        transform:scale(1.1)
+      }
+      
+      100%{
+        opacity:1;
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        transform:scale(1);
+      }
+    }
