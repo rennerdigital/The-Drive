@@ -8,15 +8,15 @@ You are immersed in a long drive in northern British Columbia when you appear to
 
 <img src="https://i.imgur.com/s7aXowO.png">
 
-real-life decisions will determine your ability to survive
+Real-life decisions will determine your ability to survive...
 <img src="https://i.imgur.com/oqbMPb6.png">
 
-discover mutiple, wildly different endings - with more added soon!
+Discover mutiple, wildly different endings - with more added soon!
 <img src="https://i.imgur.com/WIqtyVJ.png">
 
 ## The Concept
 * A minimalist Choose Your Own Adventure game
-* Reactive text and transitions to give the game a better feel
+* Reactive text and transitions to give the game a smoother, more suspenseful feel
 * Responsive game engine that logically progresses through the story with minimal code
 
 ## Wireframe
