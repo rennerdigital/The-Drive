@@ -40,6 +40,10 @@ discover mutiple, wildly different endings - with more added soon!
 * Adding to game ambiance
     * Sound effects/Soundtrack
     * Background transitions
+    * Responsive design
+    * Fullscreen option
+    * In-game menu
+    * Accessibility
 
 ### Stage II
 * Adding to game mechanics
