@@ -43,7 +43,7 @@ discover mutiple, wildly different endings - with more added soon!
     * Responsive design
     * Fullscreen option
     * In-game menu
-    * Accessibility
+    * Accessibility options
 
 ### Stage II
 * Adding to game mechanics
