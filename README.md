@@ -1,6 +1,7 @@
 # The Drive :car: - Capstone Project #1 for General Assembly's Software Engineering Program
 
 ## a renner.digital game
+### *please note this game is not yet optimized for mobile phones at the moment
 
 "The Drive" is the beginnings of a text-based, choose your own adventure game. 
 
