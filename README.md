@@ -1,4 +1,4 @@
-# The Drive :car: - Capstone Project #1 for General Assembly's Software Engineering Program
+# The Drive :car:
 
 ## a renner.digital game
 
