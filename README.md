@@ -2,7 +2,9 @@
 
 ## a renner.digital game
 
-"The Drive" is the beginnings of a text-based, choose your own adventure game. 
+### This project is currently under construction. Originally one of four capstone projects created during my time studying software engineering at General Assembly. 
+
+<!-- "The Drive" is the beginnings of a text-based, choose your own adventure game. 
 
 You are immersed in a long drive in northern British Columbia when you appear to hit something in the middle of a remote stretch of highway. After miraculously escaping unharmed, you inspect the crash to find out that all it not what it seems. Make realistic choices and discover all of the endings!
 
@@ -55,3 +57,4 @@ Discover mutiple, wildly different endings - with more added soon!
 ### Stage III
 * More writing!
     * The full version will have three parts and many more endings
+ -->
